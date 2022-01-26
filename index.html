@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Reconhecimento de Emoções</title>
+</head>
+<body>
+    <div class="container" style="text-align: center;">
+        <header class="jumbotron" style="background-color: #2fd4f1; color: black">
+            <h1>Sistema de Reconhecimento de Emoções</h1>
+            <p>Faça uma análise de qual sentimento você está sentindo.</p>
+          </header>
+          <h1>Sorrir</h1>
+          <p>Sorrir não só ajuda a evitar que pareçamos cansados, abatidos e sobrecarregados no trabalho, mas também pode ajudar a reduzir o estresse. Acredite ou não, sorrir pode reduzir o estresse, mesmo que você não tenha vontade de sorrir! Quando estiver estressado, reserve um tempo para sorrir.</p>
+          <h1>Irritação</h1>
+          <p>É importante notar que a maioria das pessoas se sente às vezes irritada. É normal, por exemplo, estar mais nervoso após uma noite de sono ruim. No entanto, a irritabilidade extrema ou prolongada pode indicar problemas físicos e psicológicos subjacentes, tais como infecções, diabetes, ansiedade ou depressão.</p>
+          <h1>Surpresa</h1>
+          <p>A surpresa é uma emoção súbita que aparece diante de uma situação ou contexto que a pessoa não está esperando. Chega e desaparece com absoluta rapidez e se vincula rapidamente a outra emoção que seja coerente com a situação.</p>
+<button type="button" class="btn btn-primary" onclick="init()">Start</button>
+<div id="webcam-container"></div>
+<div id="label-container"></div>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+<script src="tensor.js"></script>
+<footer
+        class="panel-footer"
+        style="text-align: center; background-color: #2fd4f1; color: black"
+      >
+        Todos direitos reservados - Carlos Roberto e Jader Martins - IFSULDEMINAS -
+        Campus Machado
+      </footer>
+</div>
+</body>
+</html>
